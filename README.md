@@ -1,31 +1,31 @@
 
-# `http.io` Module
+# `netConnect.io` Module
 
-`http.io` is a powerful Node.js module that provides a simple and efficient way to handle incoming HTTP requests and register event listeners. With `http.io`, you can easily build scalable and robust server-side applications that communicate over HTTP.
+`netConnect.io` is a powerful Node.js module that provides a simple and efficient way to handle incoming HTTP requests and register event listeners. With `netConnect.io`, you can easily build scalable and robust server-side applications that communicate over HTTP.
 ## Installion
 To install this package and use it, you need to first install `http` module:
 ```bash
 $ npm install http
 ```
-then, you need to install http.io package:
+then, you need to install netConnect.io package:
 ```bash
-$ npm install http.io
+$ npm install netconnect-io
 ```
 ## Usage
 
 ### For Server
 
 ```javascript
-const HttpIO = require('http.io');
+const netConnectIO = require('netconnect-io');
 
 // Create an HTTP server
 const server = http.createServer();
 
-// Create an instance of HttpIO with the server
-const httpIO = new HttpIO(server);
+// Create an instance of netConnectIO with the server
+const netConnectIO = new netConnectIO(server);
 
 // Register an event listener
-httpIO.on('event', (message, { request, response }) => {
+netConnectIO.on('event', (message, { request, response }) => {
   // Handle the event here
 });
 

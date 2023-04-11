@@ -1,9 +1,9 @@
 {
-  "name": "http.io",
+  "name": "netconnect-io",
   "version": "1.0.0",
   "description": "A custom real-time communication library using HTTP server.",
   "main": "index.js",
-  "keywords": ["http.io", "real-time", "communication", "http server"],
+  "keywords": ["netConnect-io", "real-time", "communication", "http server"],
   "license": "MIT",
   "repository": {
     "type": "git",

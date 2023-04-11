@@ -1,16 +1,16 @@
-# HttpIO API
+# netConnectIO API
 
-## Class: HttpIO
+## Class: netConnectIO
 
-The `HttpIO` class provides a simple way to handle incoming HTTP requests and register event listeners.
+The `netConnectIO` class provides a simple way to handle incoming HTTP requests and register event listeners.
 
 ### Constructor
 
-#### `new HttpIO(server)`
+#### `new netConnectIO(server)`
 
 - `server` \<http.Server\> The HTTP server instance to listen for requests on.
 
-Creates a new `HttpIO` instance and attaches event listeners to the specified HTTP server instance.
+Creates a new `netConnectIO` instance and attaches event listeners to the specified HTTP server instance.
 
 ### Methods
 
@@ -40,23 +40,23 @@ Sends a response back to the client with the specified status code, headers, and
 ```javascript
 // Example usage
 
-const HttpIO = require('./http.io');
+const netConnectIO = require('netconnect-io');
 
 // Create an HTTP server
 const server = require('http').createServer();
 
-// Create a new HttpIO instance
-const httpIO = new HttpIO(server);
+// Create a new netConnectIO instance
+const netConnectIO = new netConnectIO(server);
 
 // Register an event listener for 'event1'
-httpIO.on('event1', (message, context) => {
+netConnectIO.on('event1', (message, context) => {
   // Handle the 'event1' event
   // Access the request and response objects from the context
   const request = context.request;
   const response = context.response;
 
   // Send a response back to the client
-  httpIO.sendResponse(response, 200, { 'Content-Type': 'text/plain' }, 'Hello, world!');
+  netConnectIO.sendResponse(response, 200, { 'Content-Type': 'text/plain' }, 'Hello, world!');
 });
 
 // Start the server

@@ -1,6 +1,6 @@
-// http.io.js
+// netConnect.io.js
 
-class HttpIO {
+class netConnectIO {
   constructor(server) {
     this.listeners = new Map();
     server.on('request', this.handleRequest.bind(this));
@@ -61,4 +61,4 @@ class HttpIO {
   }
 }
 
-module.exports = HttpIO;
+module.exports = netConnectIO;
