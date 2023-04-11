@@ -1,18 +1,18 @@
 {
   "name": "netconnect-io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A custom real-time communication library using HTTP server.",
   "main": "index.js",
   "keywords": ["netConnect-io", "real-time", "communication", "http server"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ghalbeyou/http.io.git"
+    "url": "https://github.com/ghalbeyou/netconnect-io.git"
   },
   "bugs": {
-    "url": "https://github.com/ghalbeyou/http.io/issues"
+    "url": "https://github.com/ghalbeyou/netconnect-io/issues"
   },
-  "homepage": "https://github.com/ghalbeyou/http.io#readme",
+  "homepage": "https://github.com/ghalbeyou/netconnect-io#readme",
   "scripts": {
     "test": "echo \"No tests available\"",
     "start": "node index.js"
