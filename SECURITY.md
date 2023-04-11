@@ -19,7 +19,7 @@ We appreciate responsible and coordinated disclosure of security vulnerabilities
 
 ## Bug Bounty Program
 
-As a token of our appreciation for the security research community, netConnect-io maintains a bug bounty program. If you discover a qualifying security vulnerability and report it responsibly, you may be eligible for a monetary reward. Please visit our website at https://netconnect-io.com/bug-bounty for more information on our bug bounty program.
+As a token of our appreciation for the security research community, netConnect-io maintains a bug bounty program. If you discover a qualifying security vulnerability and report it responsibly, you may be eligible for a monetary reward.
 
 ## Exclusions
 
