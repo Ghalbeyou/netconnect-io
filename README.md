@@ -1,7 +1,15 @@
 # `http.io` Module
 
 `http.io` is a powerful Node.js module that provides a simple and efficient way to handle incoming HTTP requests and register event listeners. With `http.io`, you can easily build scalable and robust server-side applications that communicate over HTTP.
-
+## Installion
+To install this package and use it, you need to first install `http` module:
+```bash
+$ npm install http
+```
+then, you need to install http.io package:
+```bash
+$ npm install http.io
+```
 ## Usage
 
 ### For Server

@@ -4,7 +4,6 @@
   "description": "A custom real-time communication library using HTTP server.",
   "main": "index.js",
   "keywords": ["http.io", "real-time", "communication", "http server"],
-  "author": "GhalbeYou <arashaminiasdf@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
